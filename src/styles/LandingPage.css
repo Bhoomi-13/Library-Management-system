@@ -1,0 +1,49 @@
+.landingpage{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP5ycdpcu4DBh8zcAwTs7TkaLJNtwjgJZKLA&usqp=CAU);
+    height: 85vh;
+    padding-top: 110px;
+}
+.SelectLoginType{
+    background-color: white;
+    justify-content: center;
+    width: 600px;
+    height: 400px;
+    margin-left: 400px;
+}
+.SelectLoginType h1{
+    color: black;
+    padding-top: 40px;   
+}
+
+.b2{
+    border: 1px solid green;
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.b1{
+    border: 1px solid orangered;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 180px;
+    margin-top: 15px;
+}
+.Admin{
+    text-decoration: none;
+    color: black;
+}
+.User{
+    font-style: 20px;
+    text-decoration: none;
+    color: black;
+}
+.image{
+    display: flex;
+    justify-content: space-around;
+}
+.image img{
+    margin-right: -10px;
+}
