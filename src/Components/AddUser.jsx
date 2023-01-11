@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import '../styles/AddUser.css';
 
 const AddUser = () => {
     let navigate = useNavigate()
@@ -30,17 +31,18 @@ const AddUser = () => {
             <div className="form">
                 <form action="" onSubmit={handleSubmit}>
                     <div className="name">
-                        <input  type="text" value={name} onChange={(e)=>setname(e.target.value)} placeholder="enter name of the user" />
+                        <input className="style" type="text" value={name} onChange={(e)=>setname(e.target.value)} placeholder="enter name of the user" />
                     </div>
                     <div className="age">
-                        <input type="number" min='1' value={age} onChange={(e)=>setage(e.target.value)} placeholder="enter age of  the user"/>
+                        <input className="style" type="number" min='1' value={age} onChange={(e)=>setage(e.target.value)} placeholder="enter age of  the user"/>
                     </div>
                     <div className="email">
-                        <input type="email" minLength='10' maxLength='10' value={email} onChange={(e)=>setemail(e.target.value)} placeholder="enter the email address"/>
+                        <input className="style" type="email" minLength='10' maxLength='10' value={email} onChange={(e)=>setemail(e.target.value)} placeholder="enter the email address"/>
                     </div>
                     <div className="phoneNumber">
-                        <input type="number" value={phoneNumber} onChange={(e)=>setphoneNumber(e.target.value)} placeholder="enter phoneNumber of the user"/>
+                        <input className="style" type="number" value={phoneNumber} onChange={(e)=>setphoneNumber(e.target.value)} placeholder="enter phoneNumber of the user"/>
                     </div>
+                    <button>Add User</button>
                 </form>
             </div>
         </div>
